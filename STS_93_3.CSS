@@ -1,0 +1,155 @@
+body{
+    background-image: url("bg.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+}
+.judul{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background: linear-gradient(to bottom, #0b8969, #6cf1e8);
+    color:#d6f9ff;
+    text-align: center;
+    font-size: 100px;
+    -webkit-text-stroke: 0.5px;
+    -webkit-text-stroke-color: #043226;
+    height: 120px;
+    align-content: center;
+    transition: 0.3s ease-in-out;
+}
+.judul:hover{
+    font-size: 120px;
+    height: 150px;
+}
+.dibuat{
+    background: linear-gradient(to bottom, #3f3029, #311f17);
+    color:#f8e2c8;
+    text-align: center;
+    height: 40px;
+    align-content: center;
+    margin-bottom: 40px;
+}
+div.foto{
+text-align: center;
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+}
+img{
+    padding: 10px;
+}
+div.f1{
+    width: 250px;
+    height: 280px;
+    border: 15px;
+    background-color: rgb(207, 210, 211);
+    margin-bottom: 25px;
+    transition: 0.3s ease-in-out;
+}
+div.f1:hover{
+    overflow: hidden;
+    transition: transform 0.3 ease;
+    transform: scale(1.1); 
+    box-shadow: 0 4px 8px 0 rgb(45, 45, 54);
+}
+div.f2{
+    width: 250px;
+    height: 280px;
+    border: 15px;
+    background-color:rgb(207, 210, 211);
+    margin-bottom: 25px;
+    transition: 0.3s ease-in-out;
+}
+div.f2:hover{
+    overflow: hidden;
+    transition: transform 0.3 ease;
+    transform: scale(1.1); 
+    box-shadow: 0 4px 8px 0 rgb(45, 45, 54);
+}
+div.f3{
+    width: 250px;
+    height: 280px;
+    border: 15px;
+    background-color:rgb(207, 210, 211);
+    margin-bottom: 25px;
+    transition: 0.3s ease-in-out;
+}
+div.f3:hover{
+    overflow: hidden;
+    transition: transform 0.3s ease;
+    transform: scale(1.1); 
+    box-shadow: 0 4px 8px 0 rgb(45, 45, 54);
+}
+div.f4{
+    width: 250px;
+    height: 280px;
+    border: 15px;
+    background-color:rgb(207, 210, 211);
+    margin-bottom: 25px;
+    transition: 0.3s ease-in-out;
+}
+div.f4:hover{
+    overflow: hidden;
+    transition: transform 0.3s ease;
+    transform: scale(1.1); 
+    box-shadow: 0 4px 8px 0 rgb(45, 45, 54);
+}
+div.a{
+    background: linear-gradient(to bottom, #3f3029, #311f17);
+    color:#f9e7d3;
+    align-content: center;
+    width: 80%;
+    font-size: 20px;
+    margin: 30px auto;
+    text-align: justify;
+    gap: 15px;
+    padding: 20px;
+    border-radius: 10px;
+}
+.info1{
+    width: 90%;
+    text-indent: 15px;
+margin: auto;
+}
+div.b{
+    background: linear-gradient(to bottom, #8aecd4, #59e0d7);
+    color:#662512;
+    align-content: center;
+    width: 80%;
+    font-size: 20px;
+    margin: 30px auto;
+    text-align: justify;
+    gap: 15px;
+    padding: 20px;
+    border-radius: 10px;
+}
+.info2{
+    width: 90%;
+    text-indent: 15px;
+margin: auto;
+}
+div.c{
+    background: linear-gradient(to bottom, #3f3029, #311f17);
+    color:#f9e7d3;
+    align-content: center;
+    width: 80%;
+    font-size: 20px;
+    margin: 30px auto;
+    text-align: justify;
+    gap: 15px;
+    padding: 20px;
+    border-radius: 10px;
+}
+.info3{
+    width: 90%;
+    text-indent: 15px;
+margin: auto;
+}
+div.gif{
+    width: 300px;
+    z-index: 10;
+    margin-top: 50px;
+    margin-left: 40%;
+}

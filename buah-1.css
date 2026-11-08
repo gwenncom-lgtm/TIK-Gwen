@@ -1,0 +1,128 @@
+body {
+margin: 0;
+}
+
+/* Style the header */
+.header {
+background-color: red;
+padding: 20px;
+text-align: center;
+}
+
+* {
+box-sizing: border-box;
+}
+
+body {
+margin: 0;
+padding: 20px;
+font-family: "Times New Roman", serif;
+background-color: white;
+color: black;
+}
+
+.container {
+width: 100%;
+max-width: 1250px;
+margin: auto;
+}
+
+section {
+padding: 6px 10px 10px;
+margin-bottom: 4px;
+}
+
+h3 {
+font-size: 14px;
+margin: 2px 0 14px;
+font-weight: bold;
+}
+
+/* Daftar buah */
+.buah {
+background-color: #ed957b;
+}
+
+.buah ol {
+background-color: #8e22ee;
+padding: 10px 12px 10px 12px;
+margin: 0 0 14px;
+list-style-position: inside;
+}
+
+.buah li {
+background-color: #a5ff25;
+margin: 2px 0;
+padding: 5px;
+font-size: 13px;
+}
+
+/* Daftar Lorem Ipsum */
+.lorem {
+background-color: #ed957b;
+}
+
+.lorem ul {
+background-color: #91bd8c;
+padding: 10px 12px 10px;
+margin: 0;
+list-style-type: square;
+list-style-position: inside;
+}
+
+.lorem li {
+background-color: #f4b4c5;
+margin: 2px 0;
+padding: 5px;
+font-size: 13px;
+}
+
+/* Daftar ikon */
+.icons {
+background-color: #ed957b;
+}
+
+.icons ul {
+background-color: #91bd8c;
+padding: 10px 12px;
+margin: 0;
+list-style-type: square;
+list-style-position: inside;
+}
+
+.icons li {
+background-color: yellow;
+margin: 2px 0;
+padding: 5px;
+font-size: 13px;
+}
+
+.icon {
+font-family: Arial, sans-serif;
+}
+
+.yin {
+font-size: 14px;
+font-weight: bold;
+}
+
+.buah li:nth-child(5) {
+background-color: #e6a51a;
+}
+
+.navbar {
+background-color: #e74c70;
+padding: 12px;
+display: flex;
+gap: 20px;
+}
+
+.navbar a {
+color: #663344;
+text-decoration: none;
+font-size: 20px;
+}
+
+.navbar a:hover {
+color: white;
+}

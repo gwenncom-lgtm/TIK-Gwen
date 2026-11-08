@@ -1,0 +1,51 @@
+body {
+background-color: #fffde7;
+font-family: Georgia, serif;
+margin: 20px;
+}
+
+/* Judul */
+h2 {
+text-align: center;
+background-color: #f8c8dc;
+width: 300px;
+margin: 20px auto;
+padding: 10px;
+border-radius: 8px;
+}
+
+/* Tabel nilai */
+.nilai {
+width: 100%;
+border-collapse: collapse;
+text-align: center;
+margin-bottom: 20px;
+}
+
+.nilai th {
+background-color: #f4a6c1;
+padding: 12px;
+border: 2px solid #555;
+}
+
+.nilai td {
+background-color: #e9e8c7;
+padding: 7px;
+border: 2px solid #555;
+}
+
+/* Tabel kotak nomor */
+.layout {
+width: 100%;
+border-collapse: collapse;
+table-layout: fixed;
+text-align: center;
+}
+
+.layout td {
+background-color: #f4a6c1;
+border: 2px solid #555;
+height: 42px;
+font-weight: bold;
+padding: 5px;
+}
